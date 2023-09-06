@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>Simple HTML Table</title>
+</head>
+<body>
+<form method="" action="">
+<table border="1" align="center" width="600" bgcolor="#dad2d2" >
+<caption>Registration form</caption>
+<tr>
+<th>Enter your first name</th>
+<td><input type="text" name="first_name" id="first_name" maxlength="15" placeholder="Enter your first name" required/></td>
+</tr>
+<tr>
+<th>Enter your last name</th>
+<td><input type="text" name="last_name" id="last_name" /></td>
+</tr>
+<tr>
+<th>Enter your password</th>
+<td><input type="password"/></td>
+</tr>
+<tr>
+<th>ReEnter your password</th>
+<td><input type="password"/></td>
+</tr>
+<tr>
+<th>Enter your email</th>
+<td><input type="email"/></td>
+</tr>
+<tr>
+<th>Enter your mobile</th>
+<td><input type="number"/></td>
+</tr>
+<tr>
+<th>Enter your address</th>
+<td><textarea rows="12" cols="25"></textarea></td>
+</tr>
+<tr>
+<th>Select your gender</th>
+<td>
+Male<input type="radio" name="g" value="male"/>
+Female<input type="radio" name="g" value="female"/>
+</td>
+</tr>
+<tr>
+<th>Select sports you love</th>
+<td>
+cricket<input type="checkbox" name="sp[]" value="c"/>
+football<input type="checkbox" name="sp[]" value="f"/>
+hocky<input type="checkbox" name="sp[]" value="h"/>
+</td>
+</tr>
+<tr>
+<th>Select your Date Of Birth</th>
+<td><input type="date"/></td>
+</tr>
+<tr>
+<th>Select your Country</th>
+<td>
+<select name="country">
+<option value="" selected="selected" disabled="disabled">Select your country</option>
+<option value="1">England</option>
+<option value="2">India</option>
+</select>
+</td>
+</tr>
+<tr>
+<th>Upload Image</th>
+<td><input type="file"/></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type="submit" value="Register"/>
+<input type="reset" value="Reset"/>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
