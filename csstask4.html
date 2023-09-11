@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS TASKS</title>
+    <style>
+        fieldset {
+            width: 600px;
+            padding: 30px;
+          
+            margin: auto;
+        }
+
+      
+
+        .sidenav{
+            height: 500px;
+            width: 200px;
+            float: left;
+            overflow: hidden;
+            position: relative;
+        }
+        #navbar a {
+            position: absolute;
+            left: -80px;
+            transition: 0.3s;
+            padding: 15px;
+            width: 100px;
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            border-radius: 0 5px 5px 0;
+        }
+
+        #navbar a:hover {
+            left: 0;
+        }
+
+        #Java {
+            top: 20px;
+            background-color: #04AA6D;
+        }
+
+        #HTML {
+            top: 80px;
+            background-color: #2196F3;
+        }
+
+        #CSS {
+            top: 140px;
+            background-color: #f44336;
+        }
+
+        #JS {
+            top: 200px;
+            background-color: #555
+        }
+
+      
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        
+        <div>
+            <div id="navbar" class="sidenav">
+                <a href="#" id="Java">Java</a>
+                <a href="#" id="HTML">HTML</a>
+                <a href="#" id="CSS">CSS</a>
+                <a href="#" id="JS">JS</a>
+            </div>
+            <div style="margin-left:80px;">
+                <h2>Hoverable sidenav Buttons</h2>
+                <p>Hover over the buttons in the left side navigation to open them.</p>
+            </div>
+        </div>
+      
+    </fieldset>
+</body>
+
+</html>
